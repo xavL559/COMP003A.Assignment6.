@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace COMP003A.Assignment6_
 {
+    /// <summary>
+    /// Making the truck = vehicle
+    /// </summary>
     internal class Truck : Vehicle
     {
         private double _sizeofTruckBed;
@@ -26,6 +29,9 @@ namespace COMP003A.Assignment6_
             set { _sizeofTruckBed = value;}
         }
 
+        /// <summary>
+        /// Displaying the information of the truck
+        /// </summary>
         public override void GetInfo()
         {
             Console.WriteLine($"I'm a {nameof(Truck)}.");

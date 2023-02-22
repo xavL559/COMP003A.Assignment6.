@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace COMP003A.Assignment6_
 {
     /// <summary>
-    /// 
+    /// Getting the strings together 
     /// </summary>
     abstract class Vehicle : IVehicle
     {
@@ -17,7 +17,7 @@ namespace COMP003A.Assignment6_
 
 
         /// <summary>
-        /// 
+        /// Making it public
         /// </summary>
         public Vehicle()
         {
@@ -25,7 +25,7 @@ namespace COMP003A.Assignment6_
         }
 
         /// <summary>
-        /// 
+        /// Switching the string names
         /// </summary>
         /// <param name="brand"></param>
         /// <param name="model"></param>
